@@ -29,6 +29,7 @@ $ vagrant up
 * Download [SonarQube Runner](https://sonarsource.bintray.com/Distribution/sonar-scanner-cli/sonar-scanner-2.6.1.zip)
 * Add the `sonar-scanner-<version>/bin` directory to your path.
 * Create a properties file with name **sonar-project.properties** in the roor folder of project
+* **For different language properties file please refer this link:(https://github.com/SonarSource/sonar-examples/tree/master/projects/languages) and look for sonar-project.properties file.** 
 ```bash
 # must be unique in a given SonarQube instance
 sonar.projectKey=<key>:<project_name>
@@ -45,7 +46,7 @@ sonar.sources=<src_folder>
 # Encoding of the source code. Default is default system encoding
 #sonar.sourceEncoding=UTF-8
 ```
-* For different language properties file please refer this [link](https://github.com/SonarSource/sonar-examples/tree/master/projects/languages) and look for sonar-project.properties file.
+ 
 * After, creating the properties file in root folder run the command below in the root directory
 ```
 $ sonar-scanner
