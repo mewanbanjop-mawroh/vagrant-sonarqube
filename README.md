@@ -45,6 +45,7 @@ sonar.sources=<src_folder>
 # Encoding of the source code. Default is default system encoding
 #sonar.sourceEncoding=UTF-8
 ```
+* For different language properties file please refer this [link](https://github.com/SonarSource/sonar-examples/tree/master/projects/languages) and look for sonar-project.properties file.
 * After, creating the properties file in root folder run the command below in the root directory
 ```
 $ sonar-scanner
